@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKS PGRI 11 Ciledug — Official Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#hero" class="nav-brand">
+                <span class="brand-dot"></span> SMKS PGRI 11
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" data-nav>Beranda</a></li>
+                <li><a href="#about" data-nav>Tentang</a></li>
+                <li><a href="#programs" data-nav>Jurusan</a></li>
+                <li><a href="#facilities" data-nav>Fasilitas</a></li>
+                <li><a href="#gallery" data-nav>Galeri</a></li>
+                <li><a href="#achievements" data-nav>Prestasi</a></li>
+                <li><a href="#contact" class="nav-cta" data-nav>Hubungi Kami</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== SLIDE 1: HERO ========== -->
+    <section class="hero section" id="hero">
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge">📍 Raden Fatah, Ciledug, Kota Tangerang</div>
+                <h1>Cetak Generasi <span>Profesional</span> & Berkarakter</h1>
+                <p>Sekolah Menengah Kejuruan unggulan yang membekali siswa dengan keterampilan industri terkini, siap bersaing di dunia kerja maupun melanjutkan ke jenjang lebih tinggi.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Jelajahi Sekolah</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Kami</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card reveal">
+                    <div class="card-icon">🎓</div>
+                    <h3>SMKS PGRI 11 Ciledug</h3>
+                    <p>Berdiri sejak tahun 2000, mencetak lulusan berkualitas dengan akreditasi unggul.</p>
+                    <div class="hero-address">
+                        <span>📍</span> Jl. Raden Fatah, Ciledug, Kota Tangerang
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 2: TENTANG ========== -->
+    <section class="section" id="about">
+        <div class="section-inner">
+            <div class="section-label reveal">Tentang Kami</div>
+            <h2 class="section-title reveal reveal-delay-1">Mengenal SMKS PGRI 11 Ciledug</h2>
+            <p class="section-subtitle reveal reveal-delay-1">Kami berkomitmen menghadirkan pendidikan vokasi berkualitas yang relevan dengan kebutuhan industri, didukung tenaga pengajar profesional dan lingkungan belajar yang kondusif.</p>
+            <div class="about-grid" style="margin-top: 40px;">
+                <div class="about-image reveal reveal-delay-2" id="aboutImage" title="Klik untuk mengganti foto">
+                    <span class="placeholder-text">🖼️ Klik untuk menambahkan foto sekolah</span>
+                    <img src="" alt="Foto SMKS PGRI 11 Ciledug" id="aboutImgEl" style="display:none;">
+                    <input type="file" accept="image/*" id="aboutFileInput" style="display:none;">
+                </div>
+                <div class="about-text reveal reveal-delay-2">
+                    <p style="color:var(--text-muted);line-height:1.7;">SMKS PGRI 11 Ciledug hadir sebagai lembaga pendidikan yang fokus pada pengembangan kompetensi siswa di berbagai bidang keahlian. Dengan kurikulum yang selaras dengan dunia industri, kami memastikan setiap lulusan siap bersaing secara global.</p>
+                    <div class="stat-row">
+                        <div class="stat-item">
+                            <div class="stat-num">3</div>
+                            <div class="stat-label">Program Keahlian</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">20+</div>
+                            <div class="stat-label">Guru Profesional</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">500+</div>
+                            <div class="stat-label">Siswa Aktif</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 3: JURUSAN ========== -->
+    <section class="section" id="programs" style="background:#fff;">
+        <div class="section-inner">
+            <div class="section-label reveal">Program Keahlian</div>
+            <h2 class="section-title reveal reveal-delay-1">Jurusan Unggulan</h2>
+            <p class="section-subtitle reveal reveal-delay-1">Pilihan program keahlian yang dirancang sesuai tuntutan pasar kerja masa kini.</p>
+            <div class="programs-grid">
+                <div class="program-card reveal reveal-delay-1">
+                    <div class="prog-icon">💻</div>
+                    <h4>Teknik Komputer & Jaringan</h4>
+                    <p>Menguasai perakitan komputer, instalasi jaringan, troubleshooting hardware & software, serta administrasi server.</p>
+                </div>
+                <div class="program-card reveal reveal-delay-2">
+                    <div class="prog-icon">🏢</div>
+                    <h4>Akuntansi & Keuangan Lembaga</h4>
+                    <p>Kompetensi dalam pencatatan keuangan, perpajakan, software akuntansi, dan laporan keuangan perusahaan.</p>
+                </div>
+                <div class="program-card reveal reveal-delay-3">
+                    <div class="prog-icon">📈</div>
+                    <h4>Bisnis Daring & Pemasaran</h4>
+                    <p>Strategi pemasaran digital, e-commerce, manajemen bisnis online, dan kewirausahaan berbasis teknologi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 4: FASILITAS ========== -->
+    <section class="section" id="facilities">
+        <div class="section-inner">
+            <div class="section-label reveal">Fasilitas</div>
+            <h2 class="section-title reveal reveal-delay-1">Penunjang Pembelajaran</h2>
+            <p class="section-subtitle reveal reveal-delay-1">Lingkungan belajar yang nyaman dan lengkap untuk mendukung proses pendidikan.</p>
+            <div class="facilities-grid">
+                <div class="facility-item reveal reveal-delay-1"><span class="facility-dot"></span><span>Laboratorium Komputer</span></div>
+                <div class="facility-item reveal reveal-delay-1"><span class="facility-dot"></span><span>Ruang Praktik Akuntansi</span></div>
+                <div class="facility-item reveal reveal-delay-2"><span class="facility-dot"></span><span>Perpustakaan Digital</span></div>
+                <div class="facility-item reveal reveal-delay-2"><span class="facility-dot"></span><span>Ruang Kelas Ber-AC</span></div>
+                <div class="facility-item reveal reveal-delay-3"><span class="facility-dot"></span><span>WiFi Area</span></div>
+                <div class="facility-item reveal reveal-delay-3"><span class="facility-dot"></span><span>Lapangan Olahraga</span></div>
+                <div class="facility-item reveal reveal-delay-3"><span class="facility-dot"></span><span>Kantin Sehat</span></div>
+                <div class="facility-item reveal reveal-delay-3"><span class="facility-dot"></span><span>Musholla</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 5: GALERI ========== -->
+    <section class="section" id="gallery" style="background:#fff;">
+        <div class="section-inner">
+            <div class="section-label reveal">Galeri</div>
+            <h2 class="section-title reveal reveal-delay-1">Dokumentasi Kegiatan</h2>
+            <p class="section-subtitle reveal reveal-delay-1">Momen-momen berharga di lingkungan SMKS PGRI 11 Ciledug. Klik foto untuk menggantinya dengan foto Anda sendiri.</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items generated by JS -->
+            </div>
+            <p class="gallery-upload-hint reveal">💡 <strong>Klik</strong> setiap kotak untuk menambahkan foto dari perangkat Anda</p>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 6: PRESTASI ========== -->
+    <section class="section" id="achievements">
+        <div class="section-inner">
+            <div class="section-label reveal">Prestasi</div>
+            <h2 class="section-title reveal reveal-delay-1">Pencapaian Membanggakan</h2>
+            <p class="section-subtitle reveal reveal-delay-1">Deretan prestasi yang telah diraih siswa dan siswi kami di berbagai kompetisi.</p>
+            <div class="achievements-list">
+                <div class="achievement-row reveal reveal-delay-1">
+                    <div class="achievement-year">2024</div>
+                    <div><h4>Juara 1 LKS Bidang IT Networking</h4><p>Tingkat Kota Tangerang</p></div>
+                </div>
+                <div class="achievement-row reveal reveal-delay-2">
+                    <div class="achievement-year">2023</div>
+                    <div><h4>Juara 2 Olimpiade Akuntansi</h4><p>Tingkat Provinsi Banten</p></div>
+                </div>
+                <div class="achievement-row reveal reveal-delay-3">
+                    <div class="achievement-year">2023</div>
+                    <div><h4>Juara Harapan 1 Business Plan Competition</h4><p>Tingkat Nasional</p></div>
+                </div>
+                <div class="achievement-row reveal reveal-delay-3">
+                    <div class="achievement-year">2022</div>
+                    <div><h4>Juara 3 Futsal Antar SMK</h4><p>Se-Tangerang Raya</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SLIDE 7: KONTAK ========== -->
+    <section class="contact-section" id="contact">
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <h2>Hubungi Kami</h2>
+                <p>Punya pertanyaan atau ingin berkunjung? Jangan ragu untuk menghubungi kami melalui form atau langsung datang ke sekolah.</p>
+                <div class="contact-detail">
+                    <span class="detail-icon">📍</span>
+                    <span>Jl. Raden Fatah, Ciledug, Kota Tangerang, Banten</span>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-icon">📞</span>
+                    <span>(021) 1234-5678</span>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-icon">✉️</span>
+                    <span>info@smkspgri11ciledug.sch.id</span>
+                </div>
+            </div>
+            <form class="contact-form reveal reveal-delay-1" id="contactForm">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Alamat Email" required>
+                <textarea placeholder="Tulis pesan Anda..." required></textarea>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+        <div class="footer-bottom reveal">
+            &copy; 2025 SMKS PGRI 11 Ciledug. All rights reserved. | Jl. Raden Fatah, Ciledug, Kota Tangerang
+        </div>
+    </section>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img src="" alt="Preview" id="lightboxImg">
+    </div>
+
+    <!-- ========== TOAST ========== -->
+    <div class="toast" id="toast"></div>
+
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
